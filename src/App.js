@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import CatItem from "./components/CatItem";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <CatItem name="Kevin Stiven" age="5" race="Orange Taby" />
+      <CatItem name="Timon" age="3" race="Taby"/>
+      <CatItem name="Mishuga" age="2" race="Taby Gray"/>
+      <CatItem name="Brandy" age="1" race="Siames"/>
+      <Footer />
+
+    </>
   );
 }
 
