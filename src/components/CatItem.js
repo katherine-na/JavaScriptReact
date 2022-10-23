@@ -1,8 +1,9 @@
 import React from "react";
 
+
 const CatItem = (props) => {
     return(
-        <div>
+        <div className="cat-item">
             <h1>Cat</h1>
             <p>{props.name}</p>
             <p>{props.age}</p>

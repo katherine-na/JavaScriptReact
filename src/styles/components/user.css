@@ -1,0 +1,7 @@
+.user-item {
+    border: 1px solid rgb(251, 127, 148);
+    background-color: pink;
+    padding: 16px;
+    width: 400px;
+    margin: 10px;
+}
