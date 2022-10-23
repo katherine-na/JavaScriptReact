@@ -6,6 +6,7 @@ const Movie = (props) => {
         <div className="wrapper-item">
             <p>{props.data.title} ({props.data.year})</p>
             <p>{props.data.description}</p>
+            <p>{props.data.votes}</p>
         </div>
      );
 }
